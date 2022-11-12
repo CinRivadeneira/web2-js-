@@ -41,7 +41,8 @@
         <hr>
         <br>
         <p class="intro">
-            Completa el siguiente formulario y nos pondremos en contacto contigo a la brevedad.
+            Si quieres conocer más acerca de nuestro trabajo o te interesa contratar alguno de nuestros servicios completa el
+            siguiente formulario y nos pondremos en contacto contigo a la brevedad.
 
             <br> <br>
             ¡No olvides contarnos brevemente acerca de tu marca, historia y rubro para poder brindarte un mejor
@@ -53,16 +54,20 @@
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" placeholder="José...">
                 <br>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" placeholder="Perez...">
-                <br>
-                <label for="correo">Correo Electrónico</label>
+                <label for="correo">Correo electrónico</label>
                 <input type="text" name="correo" placeholder="joseperez@gmail.com">
-                <br><br><br>
-                <textarea name="Consulta" cols="70" rows="13" placeholder="Describe tu consulta aquí"></textarea>
                 <br>
-                <a href="error404.html"><input type="button" value="Enviar"></a>
+                <label for="empresa">Nombre de tu empresa</label>
+                <input type="text" name="empresa" placeholder="Mundo dulce">
+                <br>
+                <label for="rubro">Rubro</label>
+                <input type="text" name="rubro" placeholder="Pastelería">
+                <br><br>
+                <textarea name="consulta" cols="70" rows="13" placeholder="Describe tu consulta aquí"></textarea>
+                <br>
+                <input type="submit" value="Enviar" id="botonenv" >
             </form>
+            <a href="mailto:tucweb2022@gmail.com" id="mailto">mail</a>
         </div>
     </section>
     <br><br><br><br><br><br><br><br><br>
@@ -103,6 +108,7 @@
     </footer>
     </div>
     <script type="text/javascript" src="nav.js"></script>
+    <script src="contact.js" ></script>
 </body>
 
 </html>
