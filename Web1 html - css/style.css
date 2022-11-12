@@ -276,7 +276,7 @@ h1{
 
  .form {
     width: 100%;
-    max-width: 600px;
+    max-width: 300px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -288,7 +288,27 @@ h1{
     width: 90%;
     height: 30px;
     margin: 0.5rem;
-  }
+}
+
+#botonenv{
+    padding: 5px;
+    color:#eceff1;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #042133;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    transition: background-color 0.25s ;
+}
+
+#botonenv:hover{
+    background-color: #083e5f;
+}
+
+#mailto{
+    opacity: 0;
+}
+
  /*botones redondos*/
 
  .redondo{
