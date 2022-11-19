@@ -445,3 +445,36 @@ i{
 
 
 
+/* Modo nocturno */
+
+.mode{
+    display: inline-block;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position:relative;
+    left: 130px;
+    bottom: -4px;
+}
+
+body.darkmode{
+    background-color: #042133;
+    transition: background-color 0.4s;
+}
+
+body.darkmode .introduccion{
+    color:aliceblue;
+}
+
+body.darkmode .intro{
+    color:aliceblue;
+}
+
+body.darkmode .nosotros{
+    color:aliceblue;
+}
+
+body.darkmode .form{
+    color:aliceblue;
+}
