@@ -8,8 +8,9 @@ html{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    
+    transition: background-color 0.4s;    
 }
+
 
 header{
     background-color: #e2d7d7;
@@ -195,8 +196,8 @@ h1{
 }
 
 .logohorizontal img{
-    width: 500px;
-    height: 200px;
+    width: 300px;
+    height: 100px;
 }
 
 
@@ -352,7 +353,7 @@ h1{
 
 #padre {
     width: 100vw;
-    height: 100px;
+    height: 120px;
     background-color: #ada4a4;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -372,6 +373,8 @@ h1{
 
   .footer .copy{
     text-align: center;
+    color:#042133;
+    padding: 15px;
   }
 
   .footer .redondo {
@@ -439,4 +442,6 @@ i{
     height: 100%;
     display: block;
 }
+
+
 
